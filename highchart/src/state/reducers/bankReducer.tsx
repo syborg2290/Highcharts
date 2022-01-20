@@ -1,8 +1,7 @@
 import { Action } from "../actions/index"
 import { ActionType } from "../action-types";
+
 const initialState = 0;
-
-
 
 const reducer = (state: number = initialState, action: Action) => {
 
