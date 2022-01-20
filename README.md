@@ -34,4 +34,10 @@ Example mini project with React Redux TypeScript and Highcharts that has a simpl
 
 ### 14. Now we create a simple UI and add eventListeners to our UI and see the magic work. 
 
-### 15. Now that we have that in place, let us demonstrate the history of transactions with Highcharts as we install them with npm install highcharts --save
+### 15. Now that we have that in place, let us demonstrate the history of transactions with Highcharts as we install them with npm install highcharts --save and npm install highcharts-react-official
+
+### 16. With a react hook and useEffect we keep track of bank transactions and update the Chart Values
+
+### 17. Now that we have that in place we can play around with Tailwind CSS <3
+
+### 18. That's all folks ! 
