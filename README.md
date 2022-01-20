@@ -1,5 +1,5 @@
 # Highcharts
-Example mini project with React Redux TypeScript and Highcharts
+Example mini project with React Redux TypeScript and Highcharts that has a simple UI that represents bank history transactions shown in a chart
 
 
 ## Process of creating :
@@ -8,9 +8,9 @@ Example mini project with React Redux TypeScript and Highcharts
 
 ### 2. Installing Redux with npm install redux react-redux redux-thunk @types/react-redux
 
-### 3. Creating a reducer
+### 3. Creating a reducer and continuing with Separation of Concern in mind we separate our login
 
-### 4. Using separation of Concerns create a separate file with Actions that contains Interfaces in order to clearly define our Actions and format of payload
+### 4. We create a separate file with Actions that contains Interfaces in order to clearly define our Actions and format of payload
 
 ### 5. Further more we are creating a new file that contains Action Types in order declare them "globaly" and to keep track of them
 
