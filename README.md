@@ -40,4 +40,4 @@ Example mini project with React Redux TypeScript and Highcharts that has a simpl
 
 ### 17. Now that we have that in place we can play around with Tailwind CSS <3
 
-### 18. That's all folks ! 
+### 18. That's all folks !!!
