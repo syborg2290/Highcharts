@@ -26,16 +26,29 @@ code {
 .mainUi {
   padding: 20px;
   margin: auto;
+  margin-bottom: 20px;
+}
+
+.shadow-2xl{
+  border: 1px solid white;
+}
+.shadow-2xl:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .chart {
-  border: 1px dashed grey;
+  border: 1px solid white;
   height: fit-content;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.chart:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .text-base {
   font-size: 12px;
   margin: 5px;
+  width: 150px;
 }
 
 .pb-2 {
@@ -44,4 +57,12 @@ code {
 
 .font-bold {
   text-align: center;
+}
+
+.highcharts-title{
+  font-size: 20px!important;
+}
+
+.highcharts-subtitle{
+  font-size: 16px!important;
 }

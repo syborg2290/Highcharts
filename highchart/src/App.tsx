@@ -11,8 +11,6 @@ function App() {
 
   const dispatch = useDispatch();
 
-
-
   const { depositMoney, withdrawMoney, bankruptMoney } = bindActionCreators(actionCreators, dispatch);
 
   const amount = useSelector((state: State) => state.bank);
@@ -38,6 +36,11 @@ function App() {
       crosshairs: true,
       shared: true
     },
+    xAxis: {
+      title: {
+        text: 'Transaction History'
+      }
+    },
     yAxis: {
       alternateGridColor: 'rgba(242, 184, 49, 0.32)',
       title: {
@@ -58,7 +61,7 @@ function App() {
       marker: {
         symbol: 'diamond'
       },
-      name: 'Transaction History',
+      name: 'Acount Balance',
       negativeColor: 'red',
       data: chartValues
     }]
