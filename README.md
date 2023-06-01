@@ -1,4 +1,4 @@
-# Highcharts
+# Highcharts React App
 Example mini project with React Redux TypeScript and Highcharts that has a simple UI that represents bank history transactions shown in a chart
 
 
